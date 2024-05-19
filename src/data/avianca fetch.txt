@@ -1,0 +1,47 @@
+fetch("https://apibooking.avianca.com/v2/search/air-bounds", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.9",
+    "ama-client-ref": "6fa1a035-2ca7-44d9-b050-cebe5e2d92a1:0",
+    "authorization": "Bearer p9XfkjUwZsE9G1lxDG79qMclGCzU",
+    "content-type": "application/json",
+    "sec-ch-ua": "\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "x-d-token": "3:h/Kuca9dqCfoJTe0rFQ00A==:fqgbtyJscwjexuwOGrUEMBDKiaGUsyDbjr2UsL59FpicTLjBrlXez5tdMIG6cbM4QUxs5MLby3sZD//+jY3TUcdqd8KSZCwxO8d1nRPLGXEagthe6BiMNbCGnKm2uqAYP64EzshXrYMYcBwagvKwfPJgYNcu6ADP3jbHpQsGqpzzQBNtj6iaYDGJ6dCmrjSgvsxkWZiX1xSwjVFocXqVOBgi/vM6eGJzRJqspeCPx1qDJYCdW/5PMR9Og3yUBbeB/xI0e5fENgTiQsPNk/TO3nmWXtX3yxX/mgo2n4yZTV0dxbyIeec5BktrMfAklAyzGY9GHqaZSJRwJoLD3XzJzDHMTZR0QcDz0dueVrXFaff8IgN8RoHznryfL+E2sfZD3QcO8pi4sycZjnjRp8dtZgYYXsxIVkSTEhgKo6sHvO19WKDtJLymE3um2HKE1+PRZb+t6dJjuhFnBvBPUUSejdng7wGzHLn40G8YfP1IedpKZmEunqL7p1QaVE5BgrgxbIXpCZqg0Y8EsfRhHTtfPStZgRZZDq6OrLEvJ0bIse0xfvAXAal8xnJXEKxxlWEORBD14GwkO1DuAw1uQTU4g5RXlXZmWujVZUlbPxJUN01W2mpDlGkX8H4AJGRcLMpw4SmZeoHwAjD2H/LI34ljmFB6K7bQqwaDCqmt5C7x00eQMql0hkejFoCswPohLl47:Jhm2TIp6m8cUwk3OdOqfbdSfKkT9YOX9LEcKmwRTw7A="
+  },
+  "referrer": "https://booking.avianca.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "{\"commercialFareFamilies\":[\"BRANDEDWEB\"],\"itineraries\":[{\"departureDateTime\":\"2023-12-02T00:00:00.000\",\"originLocationCode\":\"MDE\",\"destinationLocationCode\":\"MAD\",\"isRequestedBound\":true},{\"departureDateTime\":\"2023-12-10T00:00:00.000\",\"destinationLocationCode\":\"MDE\",\"originLocationCode\":\"MAD\",\"isRequestedBound\":false}],\"travelers\":[{\"passengerTypeCode\":\"ADT\"},{\"passengerTypeCode\":\"ADT\"},{\"passengerTypeCode\":\"ADT\"},{\"passengerTypeCode\":\"CHD\"}]}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
+
+
+
+fetch("https://apibooking.avianca.com/v2/search/air-bounds", {
+  "headers": {
+    "accept": "application/json",
+    "accept-language": "en-US,en;q=0.9",
+    "ama-client-ref": "6fa1a035-2ca7-44d9-b050-cebe5e2d92a1:3",
+    "authorization": "Bearer p9XfkjUwZsE9G1lxDG79qMclGCzU",
+    "content-type": "application/json",
+    "sec-ch-ua": "\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "x-d-token": "3:h/Kuca9dqCfoJTe0rFQ00A==:fqgbtyJscwjexuwOGrUEMBDKiaGUsyDbjr2UsL59FpicTLjBrlXez5tdMIG6cbM4QUxs5MLby3sZD//+jY3TUcdqd8KSZCwxO8d1nRPLGXEagthe6BiMNbCGnKm2uqAYP64EzshXrYMYcBwagvKwfPJgYNcu6ADP3jbHpQsGqpzzQBNtj6iaYDGJ6dCmrjSgvsxkWZiX1xSwjVFocXqVOBgi/vM6eGJzRJqspeCPx1qDJYCdW/5PMR9Og3yUBbeB/xI0e5fENgTiQsPNk/TO3nmWXtX3yxX/mgo2n4yZTV0dxbyIeec5BktrMfAklAyzGY9GHqaZSJRwJoLD3XzJzDHMTZR0QcDz0dueVrXFaff8IgN8RoHznryfL+E2sfZD3QcO8pi4sycZjnjRp8dtZgYYXsxIVkSTEhgKo6sHvO19WKDtJLymE3um2HKE1+PRZb+t6dJjuhFnBvBPUUSejdng7wGzHLn40G8YfP1IedpKZmEunqL7p1QaVE5BgrgxbIXpCZqg0Y8EsfRhHTtfPStZgRZZDq6OrLEvJ0bIse0xfvAXAal8xnJXEKxxlWEORBD14GwkO1DuAw1uQTU4g5RXlXZmWujVZUlbPxJUN01W2mpDlGkX8H4AJGRcLMpw4SmZeoHwAjD2H/LI34ljmFB6K7bQqwaDCqmt5C7x00eQMql0hkejFoCswPohLl47:Jhm2TIp6m8cUwk3OdOqfbdSfKkT9YOX9LEcKmwRTw7A="
+  },
+  "referrer": "https://booking.avianca.com/",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": "{\"commercialFareFamilies\":[\"BRANDEDWEB\"],\"itineraries\":[{\"departureDateTime\":\"2023-12-02T00:00:00.000\",\"originLocationCode\":\"MDE\",\"destinationLocationCode\":\"MAD\",\"isRequestedBound\":false},{\"departureDateTime\":\"2023-12-10T00:00:00.000\",\"destinationLocationCode\":\"MDE\",\"originLocationCode\":\"MAD\",\"isRequestedBound\":true}],\"selectedBoundId\":\"BC1-2-OFR-7130820859306899-9-4-1\",\"travelers\":[{\"passengerTypeCode\":\"ADT\"},{\"passengerTypeCode\":\"ADT\"},{\"passengerTypeCode\":\"ADT\"},{\"passengerTypeCode\":\"CHD\"}]}",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
