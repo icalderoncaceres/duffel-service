@@ -56,7 +56,7 @@ export class DuffelService extends Provider {
     }
 
     let arrPromises = [];
-    if (getFlightsRequest.mode === '1') {
+    if (getFlightsRequest.mode === '0') {
       const slices1 = [
         {
           "origin": getFlightsRequest.outboundAirport,
